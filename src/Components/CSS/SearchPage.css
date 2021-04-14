@@ -1,0 +1,21 @@
+.searchPage {
+	/* display: flex; */
+	flex: 0.8;
+	padding: 15px;
+}
+.filterArea {
+	cursor: pointer;
+}
+.filterArea > h3 {
+	display: flex;
+	align-items: center;
+	color: #2e2e2e;
+}
+.filterArea > h3 > span {
+	margin-left: 10px;
+}
+.searchPage > hr {
+	width: auto;
+	border: 0;
+	border-bottom: 1px solid #eb8167;
+}

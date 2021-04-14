@@ -1,0 +1,31 @@
+.searchItems {
+	display: flex;
+	height: 170px;
+	width: auto;
+	max-width: 1000px;
+	margin: 15px;
+	cursor: pointer;
+}
+.searchItems > img {
+	height: 170px;
+	width: 300px;
+	object-fit: cover;
+}
+.video__info {
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+}
+.video__info > h3 {
+	margin: 15px 0;
+}
+.desc {
+	margin-top: 5px;
+	font-size: 0.7rem;
+}
+.Totalsubs {
+	color: #2007ff;
+}
+.subSpan {
+	background: linear-gradient(to right, #ffe7e7, #53dff8);
+}

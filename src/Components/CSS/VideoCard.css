@@ -1,0 +1,52 @@
+.video__card {
+	height: 300px;
+	width: 340px;
+	min-height: 250px;
+	max-height: 300px;
+	min-width: 270px;
+	max-width: 340px;
+	position: relative;
+	cursor: pointer;
+	border: 1px solid #ffffff;
+	margin: 10px;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.video__card > img {
+	height: 190px;
+	width: 340px;
+	object-fit: cover;
+}
+.videocard__avatar {
+	display: flex;
+	justify-content: center;
+	margin: 5px;
+	align-items: center;
+}
+.videocard__info {
+	display: flex;
+	margin-top: 0;
+}
+.time {
+	color: white;
+	position: absolute;
+	right: 5px;
+	background-color: #00000067;
+	padding: 2px;
+	bottom: 115px;
+	border-radius: 3px;
+}
+.video__text {
+	margin-left: 10px;
+}
+.video__text > h4 {
+	text-align: left;
+}
+.video__text > p {
+	padding-top: 1px;
+	padding-left: 5px;
+}
+
+.video__card:hover {
+	box-shadow: 0 0 5px #ff9393;
+}

@@ -1,0 +1,63 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px 20px;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	background-color: #fff;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.Icons {
+	cursor: pointer;
+	width: 2rem;
+	height: 2rem;
+	font-size: 2rem;
+}
+.logo {
+	height: 30px;
+	object-fit: cover;
+	margin-left: 25px;
+}
+
+.header__middle {
+	display: flex;
+	align-items: center;
+	width: 50%;
+	border: 1px solid #ebdbdb;
+	border-radius: 50px;
+	overflow: hidden;
+}
+
+.header__middle > input {
+	flex: 1;
+	border: none;
+	height: 100%;
+	width: 100%;
+	padding: 1rem;
+	outline: none;
+	overflow: hidden;
+}
+.search__button {
+	width: 50px !important;
+	height: 100%;
+	background-color: #fafafa;
+	border-left: 1px solid lightgray;
+	color: gray;
+}
+
+.header__right {
+	display: flex;
+	align-items: center;
+}
+
+.header__right > svg {
+	margin-right: 5px;
+}
